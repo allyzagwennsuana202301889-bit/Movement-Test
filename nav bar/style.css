@@ -36,6 +36,17 @@ html {
   justify-content: flex-end;
   gap: 30px;
   padding-left: 20px;
+ 
+}
+
+.nav-links a, .nav-links li{
+ text-decoration: none;
+}
+
+.nav-link.active {
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
 }
 
 .hamburger {
@@ -64,7 +75,7 @@ html {
       display: flex; /* Show menu when toggled */
     }
 
-    .nav-links p {
+    .nav-links li {
       padding: 10px;
       border-bottom: 1px solid #555;
     }

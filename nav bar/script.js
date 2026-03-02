@@ -1,6 +1,6 @@
 let isMenuOpen = false;
 
-  // 2️⃣ Select the hamburger and menu
+
   const hamburger = document.querySelector('.hamburger');
   const menu = document.querySelector('.menu');
 
